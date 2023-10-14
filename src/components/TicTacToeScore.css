@@ -1,0 +1,35 @@
+.tttScoreBoard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+    background-color: bisque;
+    box-shadow: 15px 15px 30px rgb(126, 141, 45);
+    border-radius: 30px;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 50px auto;
+}
+
+.score {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.x-score {
+    border-bottom: 5px solid rgb(85, 158, 158);
+    color: rgb(85, 158, 158);
+    border-radius: 30px;
+}
+
+.o-score {
+    border-bottom: 5px solid rgb(235, 141, 18);
+    border-radius: 30px;
+    color: rgb(235, 141, 18);
+}
+
+.inactive {
+    border-bottom: 5px solid transparent;
+}
